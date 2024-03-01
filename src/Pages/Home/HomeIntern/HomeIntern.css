@@ -1,0 +1,75 @@
+.flick1 {
+    color: gray;
+    font-size: larger;
+    font-weight: bold;
+    margin-top: 0;
+}
+
+.jp {
+    color: red;
+}
+
+.img1 {
+    height: 550px;
+}
+
+.all-Interns3 {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    padding: 0px 10px;
+    gap: 0px 40px;
+}
+
+.Intern-single-categoryT {
+    background-color: lavenderblush;
+    color: black;
+    padding: 30px;
+    border-bottom-right-radius: 50px;
+    border-top-left-radius: 50px;
+    box-shadow: 5px 8px gainsboro;
+}
+
+.Intern-single-categoryT:hover {
+    background-color: aliceblue;
+    color: black;
+    padding: 30px;
+    border-bottom-right-radius: 50px;
+    border-top-left-radius: 50px;
+    box-shadow: 5px 8px gainsboro;
+
+}
+
+.btn-home {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.btn-abc {
+    background-color: antiquewhite;
+    color: black;
+    border: 3px solid black;
+}
+
+.btn-abc:hover {
+    background-color: azure;
+    border: 3px solid skyblue;
+    color: green;
+}
+
+.home-title {
+    text-align: center;
+    padding: 5px 10px;
+    background-color: lavender;
+    font-weight: 600;
+    color: gray;
+}
+
+@media only screen and (max-width: 516px) {
+    .all-Interns3 {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        padding: 0px 10px;
+        gap: 40px 40px;
+    }
+}

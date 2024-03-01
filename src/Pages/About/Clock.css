@@ -1,0 +1,29 @@
+/* 
+
+.clock {
+    font-size: 2em;
+    font-weight: bold;
+    color: #333;
+    text-align: center;
+    margin-top: 20px;
+}
+
+.time {
+    margin-bottom: 10px;
+}
+
+.date {
+    font-size: 1.2em;
+    color: #555;
+}
+
+@media (max-width: 600px) {
+    .clock {
+        font-size: 1.5em;
+        margin-top: 10px;
+    }
+
+    .date {
+        font-size: 1em;
+    }
+} */

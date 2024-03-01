@@ -1,0 +1,13 @@
+.maker{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+@media only screen and (max-width: 516px) {
+    .maker {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+        }
+}

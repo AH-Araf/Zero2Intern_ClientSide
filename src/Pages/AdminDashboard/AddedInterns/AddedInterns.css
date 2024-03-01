@@ -1,0 +1,21 @@
+.AddedInternsMainSection {
+    display: flex;
+    align-items: center;
+}
+
+.AddedInternsMainSection2 {
+    width: 50%;
+}
+
+@media only screen and (max-width: 600px) {
+    .AddedInternsMainSection {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .AddedInternsMainSection2 {
+        width: 100%;
+    }
+}
